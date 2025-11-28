@@ -99,7 +99,7 @@ function createPopup(message, isSpecial) {
   const icon = document.createElement('img');
   icon.className = 'popup-icon';
   // 特别弹窗使用 780.jpeg，普通弹窗使用 OIP.jpg
-  icon.src = isSpecial ? '/src/OIP.jpg' : '/src/OI.jpg';
+  icon.src = isSpecial ? 'src/780.jpeg' : 'src/OIP.jpg';
 
 
   const title = document.createElement('div');
